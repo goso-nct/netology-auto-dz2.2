@@ -3,4 +3,4 @@ AQA-19
 
 Задача №1 - Заказ доставки карты  
 
-[![Build status](https://ci.appveyor.com/api/projects/status/0?svg=true)](https://ci.appveyor.com/project/goso-nct/netology-auto-dz1-2-2)
+[![Build status](https://ci.appveyor.com/api/projects/status/lo0fjp0dyshvb7ae?svg=true)](https://ci.appveyor.com/project/goso-nct/netology-auto-dz2-2)
