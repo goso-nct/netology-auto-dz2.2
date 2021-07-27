@@ -54,10 +54,10 @@ public class CardDeliveryTest {
 
         LocalDate today = LocalDate.now();
         LocalDate needDate = today.plusDays(7);
-        int month = needDate.getMonthValue() - today.getMonthValue();
 
         $("[data-test-id=date] input").click();
-        if (month == 1) {
+        if (needDate.getYear() > today.getYear()
+                || needDate.getMonthValue() > today.getMonthValue()) {
             $$(".calendar__arrow_direction_right").get(1).click();
         }
         $(byText(String.valueOf(needDate.getDayOfMonth()))).shouldHave(cssClass("calendar__day")).click();
